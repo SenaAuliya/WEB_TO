@@ -1,0 +1,19 @@
+export const Galery ={
+    name:"galeri",
+    title:"Galeri",
+    type:"document",
+    fields:
+    [
+        {
+            name:"images",
+            title:"image",
+            type:"array",
+            of:[{type:"image"}]
+        },
+        {
+            name:"title",
+            title:"Judul",
+            type:"string"
+        },
+    ]
+}
