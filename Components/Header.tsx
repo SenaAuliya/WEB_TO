@@ -43,7 +43,7 @@ export default function NavbarComponent() {
         </Link>
 
         {/* Responsive Navigation */}
-        <div className="md:hidden">
+        <div className="lg:hidden">
           <button
             className="text-gray-600 focus:outline-none focus:text-gray-800"
             onClick={toggleMenu}

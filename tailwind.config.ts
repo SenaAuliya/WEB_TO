@@ -77,7 +77,8 @@ const config = {
     },
   },
   plugins: [require("tailwindcss-animate"),
-require("flowbite-react")],
+require("flowbite-react"),
+require('flowbite/plugin')],
 } satisfies Config
 
 export default config
